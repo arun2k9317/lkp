@@ -31,7 +31,7 @@ export const theme: MantineThemeOverride = {
     },
     fontFamily: "Inter, sans-serif",
     headings: {
-        fontWeight: 600,
+        fontWeight: "600",
         fontFamily: "Inter, sans-serif",
     },
     components: {
@@ -54,7 +54,7 @@ export const theme: MantineThemeOverride = {
                     borderRadius: "2rem",
                     backgroundColor: "#21A6C3",
                     color: "white",
-                    fontWeight: 500,
+                    fontWeight: "500",
                 },
             },
         },
@@ -67,7 +67,7 @@ export const theme: MantineThemeOverride = {
                 },
                 title: {
                     color: "white",
-                    fontWeight: 600,
+                    fontWeight: "600",
                 },
             },
         },
@@ -75,7 +75,7 @@ export const theme: MantineThemeOverride = {
             styles: {
                 root: {
                     borderRadius: "0.5rem",
-                    fontWeight: 500,
+                    fontWeight: "500",
                     transition: "all 0.2s ease",
                 },
             },
