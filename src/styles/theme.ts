@@ -1,8 +1,6 @@
 import { MantineThemeOverride } from "@mantine/core";
 
 export const theme: MantineThemeOverride = {
-    colorScheme: "light",
-    primaryColor: "cyan",
     colors: {
         cyan: [
             "#E6F9FC", // 0 - Lightest

@@ -24,7 +24,6 @@
     "@mantine/spotlight": "^8.3.5",
     "@stripe/stripe-js": "^4.4.0",
     "@tabler/icons-react": "^3.35.0",
-    "bcryptjs": "^2.4.3",
     "dayjs": "^1.11.18",
     "embla-carousel": "^8.6.0",
     "embla-carousel-react": "^8.6.0",
@@ -39,7 +38,6 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
-    "@types/bcryptjs": "^3.0.0",
     "@types/node": "^20",
     "@types/pg": "^8.11.6",
     "@types/react": "^19",
