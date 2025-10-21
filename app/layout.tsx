@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.variable}>
-        <MantineProvider theme={theme} withGlobalStyles withNormalizeCSS>
+        <MantineProvider theme={theme}>
           <ModalsProvider>
             <Notifications />
             {children}
