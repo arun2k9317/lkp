@@ -13,8 +13,20 @@ import {
 import { Masonry } from "masonic";
 import { useEffect, useState } from "react";
 
+// Type definitions
+interface DashboardItem {
+  id: number;
+  type: "hero" | "text" | "image";
+  title: string;
+  subtitle?: string;
+  description?: string;
+  image?: string;
+  backgroundColor?: string;
+  height: number;
+}
+
 // Dashboard items data
-const dashboardItems = [
+const dashboardItems: DashboardItem[] = [
   {
     id: 1,
     type: "hero",
@@ -80,7 +92,7 @@ const dashboardItems = [
 ];
 
 // Card component for masonry
-const DashboardCard = ({ data }) => {
+const DashboardCard = ({ data }: { data: DashboardItem }) => {
   if (data.type === "hero") {
     return (
       <Card
