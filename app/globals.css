@@ -40,3 +40,12 @@ a {
     color-scheme: dark;
   }
 }
+
+/* Custom gradient classes */
+.gradient-bg {
+  background: linear-gradient(135deg, #21a6c3 0%, #4edfff 100%);
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, #21a6c3 0%, #4edfff 50%, #85e7fd 100%);
+}
